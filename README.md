@@ -1,8 +1,10 @@
 # TickerChart
  
 Notes:
+
 	1. I use Java 17.
 	2. I use JOptionPane from javax.swing library, if you want to run this code in online compiler you may have some issue.
+	3. If you want to run this project you need to change file path in  TickerChartAssignment class line 19.
 	
 Solution:
 	
@@ -17,10 +19,7 @@ Solution:
 		
 	Problem 4:
 		We can choose one of these solutions based on the end user requirements: 
-
 			1. Store the log in JSON format, because read file line by line take more than 80% of the time. 
-
 			2. Use cron job (cron job in Linux and task scheduler in windows) to analyse the data and store the data in local database or new file, when the user ask for the operations analysis the system will read from the local database or file we store in.
 			Note: This solution NOT QUITE ACCURATE because we have one minute gape.
-			
 			3. Rather store the data in log file we can use local database because it will be more flexible and more fast from read data from log file.
