@@ -5,6 +5,7 @@ Notes:
 	2. I use JOptionPane from javax.swing library, if you want to run this code in online compiler you may have some issue.
 	
 Solution:
+	
 	Problem 1:
 		Please run the main method in TickerChartAssignment class.
 		
